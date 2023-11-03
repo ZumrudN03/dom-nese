@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.allbtn {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.allbtn .btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border: 2px solid green;
+  color: green;
+  border-radius: 5px;
+  background-color: white;
+}
+.allbtn .btn2 {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border: 2px solid green;
+  color: green;
+  border-radius: 5px;
+  background-color: white;
+}
+.allbtn .btn3 {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border: 2px solid green;
+  color: green;
+  border-radius: 5px;
+  background-color: white;
+}
+.allbtn .btn4 {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border: 2px solid green;
+  color: green;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.all {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+}
+.all .card1 {
+  filter: blur(10px);
+}
+.all .card2 {
+  filter: blur(10px);
+}
+.all .card3 {
+  filter: blur(10px);
+}
+.all .card4 {
+  filter: blur(10px);
+}
+.all p {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

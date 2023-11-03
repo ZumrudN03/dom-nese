@@ -1,0 +1,66 @@
+.allbtn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+    .btn{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border: none;
+        border: 2px solid green;
+        color: green;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .btn2{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border: none;
+        border: 2px solid green;
+        color: green;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .btn3{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border: none;
+        border: 2px solid green;
+        color: green;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .btn4{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border: none;
+        border: 2px solid green;
+        color: green;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+}
+.all{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    .card1{
+        filter: blur(10px);
+    }
+    .card2{
+        filter: blur(10px);
+    }
+    .card3{
+        filter: blur(10px);
+    }
+    .card4{
+        filter: blur(10px);
+    }
+    
+    
+    p{
+        text-align: center;
+    }
+}
